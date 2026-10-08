@@ -149,4 +149,7 @@ concluirTarefa(tarefas, "Trocar a lâmpada da sala");
 const resumo = resumoDeTarefas(tarefas);
 console.log(resumo);
 
+// listando tarefas por prioridade:
+listarPorPrioridade(tarefas, "alta");
+
 sincronizarComServidor(tarefas);
